@@ -1,0 +1,6 @@
+{
+    "name": "permutation",
+    "dependencies": [
+        "boost"
+    ]
+}

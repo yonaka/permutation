@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 18,
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_BUILD": "ON"
+    },
+    "C_Cpp.vcpkg.enabled": true
+}
