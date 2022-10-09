@@ -42,7 +42,7 @@ namespace permutation_algorithms
 
     namespace permutation1
     {
-        // Permutation generation of n elemnts, by inserting a nee element
+        // Permutation generation of n elemnts, by inserting a new element
         // into all positions of permutations of n-1 elements.
         // Knuth, D. The Art of Computer Programming Vol.1 Fundamental Algorithms 3rd Ed.
         // 1.2.5. Permutations and Factorials Method 1
