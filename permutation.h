@@ -109,7 +109,7 @@ namespace permutation_algorithms
 
             perm_type a{first, last};
             std::vector<int> c(sz, 0);
-            std::vector<char> o(sz, 1);
+            std::vector<signed char> o(sz, 1);
             for (;;)
             {
                 output_each_perm(std::cbegin(a), std::cend(a), user_data);
