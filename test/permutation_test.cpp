@@ -49,7 +49,7 @@ namespace
 TEST(permutation_test, permutation_std_test)
 {
     using namespace permutation_std;
-    const auto r = get_permutation_std(std::cbegin(test_elems), std::end(test_elems));
+    const auto r = get_permutation_std(std::cbegin(test_elems), std::cend(test_elems));
     check_perm(r, std::size(test_elems));
 }
 
