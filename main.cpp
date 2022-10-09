@@ -100,6 +100,7 @@ void run_perm()
 int main(int argc, char**argv)
 try
 {
+    std::ios::sync_with_stdio(false);
     using namespace permutation_std;
     process_cmdline(argc, argv);
     run_perm();

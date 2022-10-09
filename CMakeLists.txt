@@ -6,6 +6,7 @@ enable_testing()
 
 add_executable(permutation main.cpp)
 target_compile_features(permutation PUBLIC cxx_std_20)
+add_compile_options(-march=native)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
