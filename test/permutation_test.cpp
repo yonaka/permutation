@@ -33,7 +33,7 @@ namespace
         // All permutations are unique
         std::sort(std::begin(perm_cont), std::end(perm_cont));
         auto it = std::unique(std::begin(perm_cont), std::end(perm_cont));
-        EXPECT_EQ(std::distance(std::begin(perm_cont), std::end(perm_cont)), perm_num);
+        EXPECT_EQ(std::distance(std::begin(perm_cont), it), perm_num);
     }
 
     template <std::random_access_iterator TElemIter>
