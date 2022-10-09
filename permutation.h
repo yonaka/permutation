@@ -94,8 +94,8 @@ namespace permutation_algorithms
 
     namespace permutation2
     {
-        // Pemutation generation.
-        // Knuth, D. THe Art of Computer Programming Vol. 4A Combinatorial Algorithms Pt.1
+        // Permutation generation.
+        // Knuth, D. The Art of Computer Programming Vol. 4A Combinatorial Algorithms Pt.1
         // 7.2.1.2 Generating all permutations. Algorithm P (Plain change)
         // [first:last): Elements to permute.
         // output_each_perm: output function of which a permutation should be passed as parameters.
